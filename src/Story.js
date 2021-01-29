@@ -17,7 +17,7 @@ class Story extends React.Component {
   render() {
     return (
       <li className="Story">
-        <a href={props.story.url}>{props.story.title}</a>
+        <a href={this.props.story.url}>{this.props.story.title}</a>
       </li>
     );
   }
